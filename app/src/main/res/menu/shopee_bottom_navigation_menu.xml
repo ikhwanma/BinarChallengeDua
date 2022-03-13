@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:icon="@drawable/ic_baseline_thumb_up_24"
+        android:title="@string/rekomendasi"/>
+    <item
+        android:id="@+id/page_2"
+        android:icon="@drawable/ic_baseline_content_copy_24"
+        android:title="@string/feed"/>
+    <item
+        android:id="@+id/page_3"
+        android:icon="@drawable/ic_outline_videocam_24"
+        android:title="@string/shopee_live"/>
+    <item
+        android:id="@+id/page_4"
+        android:icon="@drawable/ic_outline_notifications_24"
+        android:title="@string/notifikasi"/>
+    <item
+        android:id="@+id/page_5"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="@string/saya"/>
+
+</menu>

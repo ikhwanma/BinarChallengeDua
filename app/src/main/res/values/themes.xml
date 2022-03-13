@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BinarChallengeDua" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_gojek</item>
+        <item name="colorPrimaryVariant">@color/green_gojek</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="InputSearch">
+        <item name="android:background">@drawable/style_search_bar</item>
+        <item name="android:layout_width">343dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:fontFamily">@font/gotham_medium</item>
+    </style>
+
+    <style name="IconSmall">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextStyle.Bold">
+        <item name="android:fontFamily">@font/gotham_bold</item>
+    </style>
+
+    <style name="TextStyle.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle.Medium">
+        <item name="android:fontFamily">@font/gotham_medium</item>
+    </style>
+
+    <style name="TextStyle.Medium.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle.Medium.ImageButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle.Medium.Green">
+        <item name="android:textColor">@color/green_gojek</item>
+    </style>
+
+    <style name="TextStyle.Light">
+        <item name="android:fontFamily">@font/gotham_light</item>
+    </style>
+
+    <style name="TextStyle.Light.Menu">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="TextStyle.Light.Menu.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FrameGridMenu">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+
+    <style name="ShopeeTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ShopeeTextStyle.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ShopeeTextStyle.Small.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ShopeeTextStyle.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ShopeeTextStyle.Black.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ShopeeTextStyle.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ShopeeTextStyle.White.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ShopeeTextStyle.Red">
+        <item name="android:textColor">@color/red_shopee</item>
+    </style>
+
+    <style name="ShopeeTextStyle.Red.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red_shopee_bottom</item>
+        <item name="android:textColorSecondary">@color/grey</item>
+    </style>
+</resources>

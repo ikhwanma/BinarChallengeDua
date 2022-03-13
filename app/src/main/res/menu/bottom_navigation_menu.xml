@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/beranda"/>
+    <item
+        android:id="@+id/page_2"
+        android:icon="@drawable/ic_round_percent_24"
+        android:title="@string/promo"/>
+    <item
+        android:id="@+id/page_3"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="@string/pesanan"/>
+    <item
+        android:id="@+id/page_4"
+        android:icon="@drawable/ic_baseline_mark_unread_chat_alt_24"
+        android:title="@string/chat"/>
+</menu>

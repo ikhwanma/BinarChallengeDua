@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:elevation="4dp"
+    android:translationZ="4dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_corner_atas"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/style_corner_atas" />
+
+        <ImageView
+            android:id="@+id/img_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/img_line"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_round_percent_24"
+            android:contentDescription="@string/img_diskon" />
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:layout_above="@+id/img_line"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@+id/img_discount"
+            android:gravity="center_vertical"
+            android:text="@string/ada_voucher_nganggur_nih" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/img_line"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="9dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:contentDescription="@string/img_panah" />
+
+        <ImageView
+            android:id="@+id/img_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/btn_corner_atas"
+            android:src="@drawable/style_line"
+            android:contentDescription="@string/img_batas" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_below="@+id/img_line"
+            android:background="@drawable/style_corner_bawah" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_line"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_baseline_fastfood_24"
+            android:contentDescription="@string/img_food" />
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:layout_below="@+id/img_line"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@+id/img_discount"
+            android:gravity="center_vertical"
+            android:text="@string/restoran_terdekat" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/img_line"
+            android:layout_below="@+id/img_line"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="9dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:contentDescription="@string/img_panah" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

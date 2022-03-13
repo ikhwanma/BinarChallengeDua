@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:id="@+id/rl_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_shopee">
+
+        <SearchView
+            android:id="@+id/input_search"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginVertical="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/style_search_bar"
+            android:iconifiedByDefault="false"
+            android:paddingStart="-10dp"
+            android:paddingEnd="15dp"
+            android:queryHint="@string/celana_olahraga_pria_pendek"
+            android:theme="@style/AppSearchView"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/input_search"
+            android:layout_alignEnd="@+id/input_search"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/ic_outline_camera_alt_24"
+            android:contentDescription="@string/img_kamera" />
+
+        <ImageView
+            android:id="@+id/img_keranjang"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/input_search"
+            android:background="@drawable/ic_outline_shopping_basket_24"
+            android:contentDescription="@string/img_keranjang" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/img_keranjang"
+            android:background="@drawable/ic_baseline_mark_unread_chat_alt_24"
+            android:contentDescription="@string/chat" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_dua"
+        android:layout_above="@+id/bottom_navigation">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/layout_shopee_img"/>
+            <include layout="@layout/layout_shopee_saldo"/>
+            <include layout="@layout/layout_shopee_menu"/>
+            <include layout="@layout/layout_shopee_promo"/>
+            <include layout="@layout/layout_shopee_flash"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/shopee_bottom_navigation_menu"
+        app:labelVisibilityMode="labeled"
+        android:theme="@style/BottomNavigationTheme"
+        />
+
+</RelativeLayout>

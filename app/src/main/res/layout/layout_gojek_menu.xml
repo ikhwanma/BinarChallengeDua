@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:columnCount="4"
+    android:rowCount="2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:layout_gravity="center"
+            android:background="@drawable/style_button_icon_green">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_directions_bike_24"
+                android:contentDescription="@string/goride" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/goride" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:background="@drawable/style_button_icon_green">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_directions_car_24"
+                android:contentDescription="@string/gocar" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/gocar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:layout_gravity="center"
+            android:background="@drawable/style_button_icon_red">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_fastfood_24"
+                android:contentDescription="@string/gofood" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/gofood" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:layout_gravity="center"
+            android:background="@drawable/style_button_icon_green">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_inbox_24"
+                android:contentDescription="@string/gosend" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/gosend" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:layout_gravity="center"
+            android:background="@drawable/style_button_icon_red">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_red_shopping_basket_24"
+                android:contentDescription="@string/gomart" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/gomart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:layout_gravity="center"
+            android:background="@drawable/style_button_icon_blue">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_phone_android_24"
+                android:contentDescription="@string/gopulsa" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/gopulsa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            style="@style/FrameGridMenu"
+            android:layout_gravity="center"
+            android:background="@drawable/style_button_icon_blue">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_people_24"
+                android:contentDescription="@string/check_in" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:text="@string/check_in" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/style_button_icon_grey">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/transparan" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_round_grid_view_24"
+                android:contentDescription="@string/lainnya" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextStyle.Light.Menu.Black"
+            android:layout_marginTop="5dp"
+            android:text="@string/lainnya" />
+    </LinearLayout>
+
+</GridLayout>

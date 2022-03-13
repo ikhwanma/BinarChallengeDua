@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:background="@drawable/style_search_bar"
+    android:elevation="10dp"
+    android:layout_marginTop="-10dp"
+    >
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_baseline_qr_code_scanner_24"
+        android:contentDescription="@string/img_scan" />
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/style_line"
+        android:contentDescription="@string/img_batas" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_outline_account_balance_wallet_24"
+                android:contentDescription="@string/isi_saldo" />
+
+            <TextView
+                style="@style/ShopeeTextStyle.Black.Bold"
+                android:text="@string/rp16_000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/ShopeeTextStyle.Small"
+            android:text="@string/isi_saldo_shopeepay" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/style_line"
+        android:contentDescription="@string/img_batas" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_outline_monetization_on_24"
+                android:contentDescription="@string/img_uang" />
+
+            <TextView
+                style="@style/ShopeeTextStyle.Black.Bold"
+                android:text="@string/_5_koin"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/ShopeeTextStyle.Small"
+            android:text="@string/klaim_koin_di_sini" />
+    </LinearLayout>
+</LinearLayout>
